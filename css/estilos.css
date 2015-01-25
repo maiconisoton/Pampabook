@@ -1,0 +1,218 @@
+﻿/* formatação para TODAS as tags do HTML */
+* {
+    margin:0 auto;
+    padding: 0px;   
+}
+
+/* CSS PARA O MENU */
+.barNav a {
+    display: inline;
+    font-size: 17px;
+    color: #5f5f5f;
+    text-decoration: none;
+    padding: 1px 10px;
+    margin-right: -1px;
+    line-height: 25px;
+}
+.barNav a:hover {
+    color: #666666;
+    background: #FCFCFC;
+    border: 1px solid #666666;
+}
+
+#menu{
+    text-align:center;
+    padding: 1px;
+    background:#8ee3aa;
+    width:800px;
+    height:25px;
+    border: 1px solid #000000;
+    border-width: 1px 0;
+}
+
+/* CSS PARA CORPO */
+body{
+    font-family: Verdana, Arial, sans-serif; 
+    font-size: 14px;
+    background: url('../img/bordas.png') repeat-y top center;
+    background-color: #8ee3aa;
+}
+
+#header{
+    width:800px;
+    height:160px;
+}
+
+#conteudo{
+    width:800px;
+}
+
+#principal {
+    text-align:center;
+    margin-top:1px;
+}
+	
+/* CSS PARA INPUTS DIFERENTES */
+input,input { 
+    padding: 1px; 
+    background-image: -moz-linear-gradient(100% 100% 90deg, #fff, #ccc);
+    background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#fff), to(#ccc)); 
+    -webkit-border-radius:5px; 
+    color: #000; 
+    font-family:arial; 
+    font-size:14px; 
+}
+
+/* CSS PARA PERFIL */
+#editar_perfil{
+    left: 50%;
+    width: 800px;
+    margin-left: 305px;
+    position: absolute;
+    padding-top: 10px;  
+    z-index: 10;
+}
+
+#fotom{
+    float: left;
+    text-align: left;
+    position: relative;
+    left: 25px;
+    padding-top: 15px;
+}
+
+#nomem{
+    float: left;
+    text-align: center;
+    font-size: 50px;
+    position: relative;
+    padding-left: 50px;
+    padding-top: 40px;
+}
+
+#mensagemm{
+    display: inline;
+    float: left;
+    text-align: left;
+    padding-left: 5px;
+    padding-bottom: 3px;
+    font-size: 17px;
+    height: 20px;
+    width: 550px;
+    border: 1px solid #000000;
+}
+
+#infom{
+    padding-top: 10px;
+    width: 170px;
+    
+}
+
+#posts{
+    text-align: left;
+    font-size: 14px;
+    width: 550px;
+}
+
+#postPerfil{
+    padding-top: 5px;
+    margin-left: 223px;
+    width: 550px;
+}
+
+/* CSS Para deletar */
+#deletar{
+    text-decoration: none;
+    font-size: 12px;
+    float: right;
+}
+#teste{
+    text-decoration: none;
+    font-size: 12px;
+}
+
+#Dconteudo{
+    left: 50%;
+    width: 800px;
+    margin-left: 305px;
+    position: absolute;
+    padding-top: 10px;  
+    z-index: 10;    
+}
+
+/* CSS Post Index */
+#postPerfilIndex{
+    left: 50%;
+    width: 550px;
+    margin-left: -270px;
+    position: absolute;
+    padding-top: 110px;  
+    z-index: 10; 
+}
+
+#amigos{
+    left: 50%;
+    width: 600px;
+    margin-left: -300px;
+    position: absolute;
+    overflow-x: scroll;
+    z-index: 11; 
+}
+#amigoscomum{
+    width: 180px;
+    overflow-x: scroll;
+}
+
+
+#meusamigos{
+    text-align: center;
+}
+
+/* CSS par BUSCA */
+#resultados{
+    border: 0px solid;
+    width: 800px;
+    font-size: 20px;
+}
+
+/* CSS para Visitantes*/
+#visitante{
+    left: 50%;
+    width: 800px;
+    margin-left: -400px;
+    position: absolute;
+}
+
+#add_perfil{
+    left: 50%;
+    width: 800px;
+    margin-left: 235px;
+    position: absolute;
+    padding-top: 10px;  
+    z-index: 10;
+}
+#rem_perfil{
+    left: 50%;
+    width: 800px;
+    margin-left: 278px;
+    position: absolute;
+    padding-top: 10px;  
+    z-index: 10;
+}
+
+/* CSS bate papo */
+#batepapo{
+    width: 600px;
+    padding-top: 5px;
+}
+
+
+/* Teste 
+#main{
+    position: absolute;
+    top: 0px;
+    left: 50%;
+    width: 800px;
+    margin-left: -400px;
+}
+*/
